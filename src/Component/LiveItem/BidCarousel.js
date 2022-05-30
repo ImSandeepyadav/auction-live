@@ -27,7 +27,7 @@ export default function BidCarousel() {
   const ref = React.useRef();
 
   return (
-    <div style={{ width: "100%", display: "flex", justifyContent: "center", alignItems: "center"}}>
+    <div style={{ width: "100%", display: "flex", alignItems: "center"}}>
       <div onClick={() => ref.current.goBack()}><ArrowBackIosIcon /></div>
       <ResponsiveContainer
         carouselRef={ref}
