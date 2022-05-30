@@ -21,6 +21,14 @@ const data = [
     cover: banImg,
     title: "Interstaller",
   },
+  {
+    cover: banImg,
+    title: "Interstaller",
+  },
+  {
+    cover: banImg,
+    title: "Interstaller",
+  },
 ];
 
 export default function BidCarousel() {
@@ -62,7 +70,7 @@ const Slide = React.memo(function (props) {
       <img
         style={{
           height: "100%",
-          width: "100%",
+          width: "80%",
           objectFit: "cover",
           borderRadius: 10,
         }}

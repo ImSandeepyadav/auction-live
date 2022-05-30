@@ -295,7 +295,7 @@ function LiveItem() {
               <div style={{ padding: "20px" }}>
                   {/* <Carousel slides={slides} arrows={false} autoplay={true} interval={2000} /> */}
                   <BidCarousel />
-                <div style={{ padding: "20px" }}>
+                <div style={{ padding: "10px" }}>
                   <Typography
                     style={{
                       fontFamily: "Segoe UI",
