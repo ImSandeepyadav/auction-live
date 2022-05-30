@@ -6,7 +6,9 @@ import {
 } from "react-router-dom";
 
 import Home from './Container/Home/index';
-import OnlineAb from './Container/Home/onlineAbsolute'
+import OnlineAb from './Container/Home/onlineAbsolute';
+import OnlineTime from './Container/Home/onlineTime'
+
 
 function App() {
   return (
@@ -17,6 +19,9 @@ function App() {
           </Route>
       <Route exact path="/onlineabsolute">
       <OnlineAb />
+          </Route>
+          <Route exact path="/onlineTimed">
+            <OnlineTime />
           </Route>
       </Switch>
     </Router>
