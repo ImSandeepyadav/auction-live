@@ -48,7 +48,7 @@ export default function BidCarousel() {
               ref={carouselRef}
               data={data}
               carouselWidth={parentWidth}
-              slideWidth={550}
+              slideWidth={400}
               slideComponent={Slide}
               maxVisibleSlide={5}
               currentVisibleSlide={currentVisibleSlide}
